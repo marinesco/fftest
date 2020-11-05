@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/activity_main_ticker_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/fab_margin_half"
+        android:scrollbars="none" />
+
+    <com.google.android.material.progressindicator.ProgressIndicator
+        android:id="@+id/activity_main_ticker_progress_indicator"
+        style="@style/Widget.MaterialComponents.ProgressIndicator.Circular.Indeterminate"
+        android:layout_width="@dimen/ticker_holder_progress_size"
+        android:layout_height="@dimen/ticker_holder_progress_size"
+        android:layout_gravity="center"
+        app:indicatorColor="@color/colorGreen" />
+</merge>
+

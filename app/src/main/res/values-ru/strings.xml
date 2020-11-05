@@ -1,0 +1,5 @@
+<resources>
+    <string name="msg_connection_lost">Интернет соединение потеряно!</string>
+    <string name="msg_connection_unavailable">Проверьте Ваше интернет соединение&#8230;</string>
+    <string name="msg_connection_available">Интернет соединение восстановлено</string>
+</resources>
